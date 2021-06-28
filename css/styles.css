@@ -1,0 +1,268 @@
+:root{
+    --grey-color: #757575;
+    --hover-color: #2196f3;
+}
+body{
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-left: 215px;
+    padding: 0 15px;
+}
+.main-congr{
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;   
+}
+.navigation-line{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;    
+}
+.navigation, .nav-contacts {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*логотип*/
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    color: #000000;
+}
+.logo:hover{
+    color: #000000;
+}
+
+.logo1 {
+    color: var(--hover-color);
+}
+
+/*верхняя навигация*/
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    margin-left: 93px;
+}
+.nav-buttons{
+    color: black;
+    padding-right: 50px;   
+}
+.nav-buttons:hover,
+.nav-buttons:focus{
+    color: var(--hover-color);
+}
+.nav-buttons:active{
+    color: #2196f3;
+}
+.nav-contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-email {
+   color: var(--grey-color);
+}
+.nav-tel{
+    margin-left: 50px;
+    color: var(--grey-color);
+}
+.nav-email:hover,
+.nav-email:focus {
+    color: var(--hover-color);
+}
+.nav-tel:hover,
+.nav-tel:focus{
+    color: var(--hover-color);
+}
+.nav-email, .nav-tel, .logo, .nav-buttons {
+text-decoration: none;
+
+}
+.nav-contacts{
+    display: inline-flex; 
+}
+
+/*главная секция*/
+.main-section {
+    background-color: #2F303A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.main-congr{
+    margin: 0px;
+    padding-top: 200px;
+    text-align: center;
+}
+.main-button {
+    margin-top: 30px;
+    margin-bottom: 200px;
+    color: #ffffff;
+    background-color:var(--hover-color);
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.87;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+/**/
+.princips-list{
+    display: flex;
+    flex-basis: 270px;
+    padding-top: 94px;
+}
+.princips{
+    margin-right: 30px;
+}
+.princips-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+}
+.princips-text{
+    color: var(--grey-color);
+    font-weight: 400;
+}
+h2{
+    font-size: 36px;
+    line-height: 1.16;
+    font-weight: bold;
+    
+}
+
+/*кнопки*/
+.button{
+    font-family: roboto;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    
+}
+.button:hover, .button:focus{
+    background-color: var(--hover-color);
+    color:#ffffff;
+}
+
+/*портфолио проекты*/
+.filters{
+   display: flex;
+   justify-content: center;
+    list-style: none;
+     
+}
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project{
+    margin: 30px 30px;
+    list-style: none;
+ 
+}
+
+.princips-list h3{
+    text-transform: uppercase;
+    line-height: 1.14;
+    font-size: 14px;
+}
+.princips{
+    display: inline-table; 
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.7;    
+}
+.activities{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 94px;
+}
+
+.activities-list{
+    display: inline-flex;
+    justify-content: center;
+    margin: 50px 30px 94px 0;
+}
+.our-team{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F4FA;
+}
+.team-list{
+    align-items: center;
+    display: flex;   
+    line-height: 19px;
+    list-style: none;
+}
+.team-card{
+    margin: 50px 30px 94px 0px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.cardname{
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.role{
+    font-size: 16px;
+    color: var(--grey-color);
+    font-weight: 400;
+}
+/*нижняя часть*/
+.footer{
+    background-color:#2F303A;
+}
+.address{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+    color: #ffffff;
+}
+.footer-info{
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+}
+.nav-email-down, .nav-tel-down{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+}
+.nav-email-down:hover, .nav-email-down:focus{
+    color: var(--hover-color);
+} 
+.nav-tel-down:hover, .nav-tel-down:focus{
+    color: var(--hover-color);
+}
