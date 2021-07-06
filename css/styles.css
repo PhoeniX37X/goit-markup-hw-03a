@@ -204,8 +204,6 @@ h2 {
     font-weight: bold;
 }
 
-.princips-list h3 {
-}
 .princips {
     font-size: 14px;
     line-height: 1.7;
@@ -310,8 +308,8 @@ h2 {
 }
 
 /** clients section**/
-.regular-clients {
-}
+/* .regular-clients {
+} */
 .clients-title {
     display: flex;
     justify-content: center;
